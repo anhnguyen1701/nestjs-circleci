@@ -14,7 +14,7 @@ import { ProductModule } from './product/product.module';
       username: 'root',
       password: '',
       database: 'test',
-      entities: [join(__dirname, '**', '*.entity.{ts, js}')],
+      entities: [join(__dirname, '**', '*.entity.{ts,js}')],
     }),
     ProductModule,
   ],
