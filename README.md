@@ -27,4 +27,7 @@ $ npm run test:cov
 
 ## circleci
 - ci npm run test
-- cd deploy to heroku
+- cd deploy to heroku (https://circleci.com/blog/continuous-deployment-nestjs/)
+
+
+37531ec9-bc7b-4bf7-aeb6-aefd8194fc74
