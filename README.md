@@ -23,3 +23,8 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+
+## circleci
+- ci npm run test
+- cd deploy to heroku
