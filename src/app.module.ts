@@ -9,11 +9,11 @@ import { ProductModule } from './product/product.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: 'greatkart.cqy1fntaoho1.us-east-1.rds.amazonaws.com',
       port: 3306,
-      username: 'root',
-      password: '',
-      database: 'test',
+      username: 'admin',
+      password: '12345678',
+      database: 'product',
       entities: [join(__dirname, '**', '*.entity.{ts,js}')],
     }),
     ProductModule,
