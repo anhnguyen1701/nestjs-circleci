@@ -1,5 +1,5 @@
 version: 2.1
-orbs: 
+orbs:
   node: circleci/node@3.0.0
 jobs:
   build-and-test:
@@ -7,10 +7,10 @@ jobs:
       name: node/default
     steps:
       - checkout
-      - node/intsall-packages
+      - node/install-packages
       - run:
           command: npm run test
 workflows:
   build-and-test:
-    jobs: 
+    jobs:
       - build-and-test
